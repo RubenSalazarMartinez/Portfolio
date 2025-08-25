@@ -1,4 +1,4 @@
-.nav-container {
+.nav {
     position: fixed;
     left: 0;
     top: 0;
@@ -8,17 +8,17 @@
     padding-top: 40px;
 }
 
-.nav-container nav ul {
+.nav nav ul {
     list-style: none;
     padding: 0;
     margin: 0;
 }
 
-.nav-container nav ul li {
+.nav nav ul li {
     margin: 20px 0;
 }
 
-.nav-container nav ul li a {
+.nav nav ul li a {
     color: #fff;
     text-decoration: none;
     font-size: 18px;
@@ -27,6 +27,33 @@
     transition: background 0.2s;
 }
 
-.nav-container nav ul li a:hover {
+.nav nav ul li a:hover {
     background: #444;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    background-color: #f0f0f0;
+    padding: 20px 40px;
+    margin-left: 200px;
+    box-sizing: border-box;
+    height: 120px;
+}
+
+.img {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-right: 24px;
+    background: #ccc;
+}
+
+.title {
+    flex: 1;
+    text-align: center;
+    font-size: 2em;
+    margin: 0;
+    font-weight: bold;
 }
