@@ -1,0 +1,32 @@
+.nav-container {
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 200px;
+    height: 100vh;
+    background-color: #757474;
+    padding-top: 40px;
+}
+
+.nav-container nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.nav-container nav ul li {
+    margin: 20px 0;
+}
+
+.nav-container nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+    padding: 10px;
+    display: block;
+    transition: background 0.2s;
+}
+
+.nav-container nav ul li a:hover {
+    background: #444;
+}
