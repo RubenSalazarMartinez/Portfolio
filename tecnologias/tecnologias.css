@@ -1,0 +1,47 @@
+.tecnologiasZona {
+    background: #fff;
+    border-radius: 18px;
+    box-shadow: 0 4px 24px rgba(78,84,200,0.08);
+    padding: 32px 24px;
+    margin: 40px auto;
+    max-width: 600px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.tecnologiasTitulo {
+    font-size: 2em;
+    color: #4e54c8;
+    margin-bottom: 24px;
+    font-family: 'Segoe UI', 'Arial', sans-serif;
+    text-align: center;
+    letter-spacing: 0.05em;
+}
+
+.tecnologiasLista {
+    width: 100%;
+}
+
+.tecnologiasLista h3 {
+    color: #333;
+    margin-top: 24px;
+    margin-bottom: 8px;
+    font-size: 1.2em;
+}
+
+.tecnologiasLista ul {
+    list-style: none;
+    padding-left: 0;
+    margin-bottom: 16px;
+}
+
+.tecnologiasLista ul li {
+    background: #f3f3f3;
+    margin-bottom: 8px;
+    padding: 10px 16px;
+    border-radius: 8px;
+    color: #4e54c8;
+    font-weight: 500;
+    box-shadow: 0 1px 4px rgba(78,84,200,0.06);
+}
