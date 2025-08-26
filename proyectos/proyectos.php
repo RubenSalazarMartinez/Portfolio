@@ -8,9 +8,11 @@
     <link rel="stylesheet" href="contador/contador.css">
     <link rel="stylesheet" href="generador/generador.css">
     <link rel="stylesheet" href="proyectos.css">
+    <link rel="stylesheet" href="tresEnRaya/tresEnRaya.css">
     <script src="reloj/reloj.js"></script>
     <script src="contador/contador.js"></script>
     <script src="generador/generador.js"></script>
+    <script src="tresEnRaya/tresEnRaya.js"></script>
     <title>Document</title>
 </head>
 <body onload="mostrarReloj()">
@@ -35,6 +37,14 @@
         <div id="generadorContenedor">
             <input type="text" id="contraseñaGenerada" readonly placeholder="Tu contraseña aparecerá aquí">
             <button id="generarBtn">Generar contraseña</button>
+        </div>
+    </section>
+    <section class="proyectoZona">
+        <h2 class="proyectoTitulo">Tres en Raya</h2>
+        <div id="tresEnRayaContenedor">
+            <div id="tresEnRayaTablero"></div>
+            <div id="tresEnRayaInfo"></div>
+            <button id="tresEnRayaReiniciarBtn">Reiniciar</button>
         </div>
     </section>
 </body>
