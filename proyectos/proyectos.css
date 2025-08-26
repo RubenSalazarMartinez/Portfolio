@@ -1,0 +1,20 @@
+.proyectoZona {
+    background: #fff;
+    border-radius: 18px;
+    box-shadow: 0 4px 24px rgba(78,84,200,0.08);
+    padding: 32px 24px;
+    margin: 32px auto;
+    max-width: 500px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.proyectoTitulo {
+    font-size: 2em;
+    color: #4e54c8;
+    margin-bottom: 24px;
+    font-family: 'Segoe UI', 'Arial', sans-serif;
+    text-align: center;
+    letter-spacing: 0.05em;
+}

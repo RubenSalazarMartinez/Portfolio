@@ -5,7 +5,7 @@ function actualizarContador() {
     const horas = String(Math.floor(segundos / 3600)).padStart(2, '0');
     const minutos = String(Math.floor((segundos % 3600) / 60)).padStart(2, '0');
     const segs = String(segundos % 60).padStart(2, '0');
-    document.getElementById('contador').textContent = `${horas}:${minutos}:${segs}`;
+    document.getElementById('contadorTiempo').textContent = `${horas}:${minutos}:${segs}`;
 }
 
 function iniciarContador() {
@@ -30,7 +30,7 @@ function reiniciarContador() {
 
 document.addEventListener('DOMContentLoaded', function() {
     actualizarContador();
-    document.getElementById('start-btn').onclick = iniciarContador;
-    document.getElementById('stop-btn').onclick = pararContador;
-    document.getElementById('reset-btn').onclick = reiniciarContador;
+    document.getElementById('iniciarBtn').onclick = iniciarContador;
+    document.getElementById('pararBtn').onclick = pararContador;
+    document.getElementById('reiniciarBtn').onclick = reiniciarContador;
 });

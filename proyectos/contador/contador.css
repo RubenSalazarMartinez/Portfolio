@@ -1,11 +1,11 @@
-#contador-container {
+#contadorContenedor {
     display: flex;
     flex-direction: column;
     align-items: center;
     margin: 40px auto;
 }
 
-#contador {
+#contadorTiempo {
     font-size: 2.5em;
     font-family: 'Segoe UI', 'Arial', sans-serif;
     color: #333;
@@ -18,7 +18,7 @@
     font-weight: bold;
 }
 
-#contador-buttons button {
+#contadorBotones button {
     font-size: 1em;
     margin: 0 8px;
     padding: 10px 24px;
@@ -30,6 +30,6 @@
     transition: background 0.2s;
 }
 
-#contador-buttons button:hover {
+#contadorBotones button:hover {
     background: #8f94fb;
 }

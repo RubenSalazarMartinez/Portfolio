@@ -1,0 +1,31 @@
+#generadorContenedor {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 40px auto;
+}
+
+#contraseñaGenerada {
+    font-size: 1.2em;
+    padding: 10px;
+    margin-bottom: 16px;
+    width: 260px;
+    text-align: center;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+}
+
+#generarBtn {
+    font-size: 1em;
+    padding: 10px 24px;
+    border: none;
+    border-radius: 8px;
+    background: #4e54c8;
+    color: #fff;
+    cursor: pointer;
+    transition: background 0.2s;
+}
+
+#generarBtn:hover {
+    background: #8f94fb;
+}
