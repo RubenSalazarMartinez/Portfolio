@@ -1,0 +1,21 @@
+#reloj {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 120px;
+    width: 300px;
+    margin: 40px auto;
+    font-size: 3em;
+    font-family: 'Segoe UI', 'Arial', sans-serif;
+    color: #fff;
+    background: linear-gradient(135deg, #4e54c8 0%, #8f94fb 100%);
+    border-radius: 20px;
+    box-shadow: 0 4px 24px rgba(78,84,200,0.2);
+    letter-spacing: 0.1em;
+    font-weight: bold;
+    transition: box-shadow 0.3s;
+}
+
+#reloj:hover {
+    box-shadow: 0 8px 32px rgba(78,84,200,0.4);
+}
