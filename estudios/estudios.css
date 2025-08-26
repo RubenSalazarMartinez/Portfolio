@@ -1,0 +1,42 @@
+.estudiosZona {
+    background: #fff;
+    border-radius: 18px;
+    box-shadow: 0 4px 24px rgba(78,84,200,0.08);
+    padding: 32px 24px;
+    margin: 40px auto;
+    max-width: 500px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.estudiosTitulo {
+    font-size: 2em;
+    color: #4e54c8;
+    margin-bottom: 24px;
+    font-family: 'Segoe UI', 'Arial', sans-serif;
+    text-align: center;
+    letter-spacing: 0.05em;
+}
+
+.estudiosLista ul {
+    list-style: none;
+    padding-left: 0;
+    width: 100%;
+}
+
+.estudiosLista li {
+    background: #f3f3f3;
+    margin-bottom: 16px;
+    padding: 16px;
+    border-radius: 8px;
+    color: #333;
+    font-size: 1.1em;
+    box-shadow: 0 1px 4px rgba(78,84,200,0.06);
+}
+
+.estudiosFecha {
+    color: #4e54c8;
+    font-weight: bold;
+    font-size: 0.95em;
+}
